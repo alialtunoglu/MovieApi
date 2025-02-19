@@ -1625,6 +1625,20 @@
           }
         }
       },
+      "MovieApi.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "MovieApi.Domain": "1.0.0",
+          "MovieApi.Persistence": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MovieApi.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MovieApi.Application.dll": {}
+        }
+      },
       "MovieApi.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -4759,6 +4773,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "MovieApi.Application/1.0.0": {
+      "type": "project",
+      "path": "../../Core/MovieApi.Application/MovieApi.Application.csproj",
+      "msbuildProject": "../../Core/MovieApi.Application/MovieApi.Application.csproj"
+    },
     "MovieApi.Domain/1.0.0": {
       "type": "project",
       "path": "../../Core/MovieApi.Domain/MovieApi.Domain.csproj",
@@ -4774,6 +4793,7 @@
     "net9.0": [
       "Microsoft.AspNetCore.OpenApi >= 9.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.1",
+      "MovieApi.Application >= 1.0.0",
       "MovieApi.Persistence >= 1.0.0"
     ]
   },
@@ -4802,6 +4822,9 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
+            "/Volumes/KINGSTON/MovieApi/Core/MovieApi.Application/MovieApi.Application.csproj": {
+              "projectPath": "/Volumes/KINGSTON/MovieApi/Core/MovieApi.Application/MovieApi.Application.csproj"
+            },
             "/Volumes/KINGSTON/MovieApi/Infrastructure/MovieApi.Persistence/MovieApi.Persistence.csproj": {
               "projectPath": "/Volumes/KINGSTON/MovieApi/Infrastructure/MovieApi.Persistence/MovieApi.Persistence.csproj"
             }

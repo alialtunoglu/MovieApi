@@ -4,6 +4,72 @@
     "/Volumes/KINGSTON/MovieApi/Presentation/MovieApi.WebApi/MovieApi.WebApi.csproj": {}
   },
   "projects": {
+    "/Volumes/KINGSTON/MovieApi/Core/MovieApi.Application/MovieApi.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/KINGSTON/MovieApi/Core/MovieApi.Application/MovieApi.Application.csproj",
+        "projectName": "MovieApi.Application",
+        "projectPath": "/Volumes/KINGSTON/MovieApi/Core/MovieApi.Application/MovieApi.Application.csproj",
+        "packagesPath": "/Users/alialtunoglu/.nuget/packages/",
+        "outputPath": "/Volumes/KINGSTON/MovieApi/Core/MovieApi.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alialtunoglu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Volumes/KINGSTON/MovieApi/Core/MovieApi.Domain/MovieApi.Domain.csproj": {
+                "projectPath": "/Volumes/KINGSTON/MovieApi/Core/MovieApi.Domain/MovieApi.Domain.csproj"
+              },
+              "/Volumes/KINGSTON/MovieApi/Infrastructure/MovieApi.Persistence/MovieApi.Persistence.csproj": {
+                "projectPath": "/Volumes/KINGSTON/MovieApi/Infrastructure/MovieApi.Persistence/MovieApi.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Volumes/KINGSTON/MovieApi/Core/MovieApi.Domain/MovieApi.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -170,6 +236,9 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+              "/Volumes/KINGSTON/MovieApi/Core/MovieApi.Application/MovieApi.Application.csproj": {
+                "projectPath": "/Volumes/KINGSTON/MovieApi/Core/MovieApi.Application/MovieApi.Application.csproj"
+              },
               "/Volumes/KINGSTON/MovieApi/Infrastructure/MovieApi.Persistence/MovieApi.Persistence.csproj": {
                 "projectPath": "/Volumes/KINGSTON/MovieApi/Infrastructure/MovieApi.Persistence/MovieApi.Persistence.csproj"
               }
