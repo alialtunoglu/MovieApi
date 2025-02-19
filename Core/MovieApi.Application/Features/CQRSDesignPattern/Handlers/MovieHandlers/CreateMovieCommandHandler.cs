@@ -1,4 +1,4 @@
-using MovieApi.Application.Features.CQRSDesignPattern.Commands.MovieCommands;
+﻿using MovieApi.Application.Features.CQRSDesignPattern.Commands.MovieCommands;
 using MovieApi.Domain.Entities;
 using MovieApi.Persistence.Context;
 using System;
@@ -16,10 +16,11 @@ namespace MovieApi.Application.Features.CQRSDesignPattern.Handlers.MovieHandlers
         {
             _context = context;
         }
-        public async void Handler(CreateMovieCommand command)
+        public async void Handle(CreateMovieCommand command)
         {
-            _context.Movies.Add(new Movie{
-                CoverImagerUrl = command.CoverImageUrl,
+            _context.Movies.Add(new Movie
+            {
+                CoverImageUrl = command.CoverImageUrl,
                 CreatedYear = command.CreatedYear,
                 Description = command.Description,
                 Duration = command.Duration,
@@ -27,7 +28,6 @@ namespace MovieApi.Application.Features.CQRSDesignPattern.Handlers.MovieHandlers
                 ReleaseDate = command.ReleaseDate,
                 Status = command.Status,
                 Title = command.Title
-
             });
             await _context.SaveChangesAsync();
         }

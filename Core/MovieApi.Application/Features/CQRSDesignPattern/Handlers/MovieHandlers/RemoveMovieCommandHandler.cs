@@ -1,4 +1,4 @@
-using MovieApi.Application.Features.CQRSDesignPattern.Commands.MovieCommands;
+﻿using MovieApi.Application.Features.CQRSDesignPattern.Commands.MovieCommands;
 using MovieApi.Persistence.Context;
 using System;
 using System.Collections.Generic;
@@ -15,7 +15,7 @@ namespace MovieApi.Application.Features.CQRSDesignPattern.Handlers.MovieHandlers
         {
             _context = context;
         }
-        public async void Handler(RemoveMovieCommand command)
+        public async void Handle(RemoveMovieCommand command)
         {
             var value = await _context.Movies.FindAsync(command.MovieId);
             _context.Movies.Remove(value);
