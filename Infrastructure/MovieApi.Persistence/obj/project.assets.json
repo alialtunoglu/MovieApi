@@ -4733,11 +4733,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Volumes/KINGSTON/MovieApi/Infrastructure/MovieApi.Persistence/MovieApi.Persistence.csproj",
+      "projectUniqueName": "/Volumes/KINGSTON/Projeler/MovieApi/Infrastructure/MovieApi.Persistence/MovieApi.Persistence.csproj",
       "projectName": "MovieApi.Persistence",
-      "projectPath": "/Volumes/KINGSTON/MovieApi/Infrastructure/MovieApi.Persistence/MovieApi.Persistence.csproj",
+      "projectPath": "/Volumes/KINGSTON/Projeler/MovieApi/Infrastructure/MovieApi.Persistence/MovieApi.Persistence.csproj",
       "packagesPath": "/Users/alialtunoglu/.nuget/packages/",
-      "outputPath": "/Volumes/KINGSTON/MovieApi/Infrastructure/MovieApi.Persistence/obj/",
+      "outputPath": "/Volumes/KINGSTON/Projeler/MovieApi/Infrastructure/MovieApi.Persistence/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/alialtunoglu/.nuget/NuGet/NuGet.Config"
@@ -4752,8 +4752,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/Volumes/KINGSTON/MovieApi/Core/MovieApi.Domain/MovieApi.Domain.csproj": {
-              "projectPath": "/Volumes/KINGSTON/MovieApi/Core/MovieApi.Domain/MovieApi.Domain.csproj"
+            "/Volumes/KINGSTON/Projeler/MovieApi/Core/MovieApi.Domain/MovieApi.Domain.csproj": {
+              "projectPath": "/Volumes/KINGSTON/Projeler/MovieApi/Core/MovieApi.Domain/MovieApi.Domain.csproj"
             }
           }
         }

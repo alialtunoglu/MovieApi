@@ -21,3 +21,15 @@
 /Volumes/KINGSTON/MovieApi/Core/MovieApi.Domain/obj/Debug/net9.0/refint/MovieApi.Domain.dll
 /Volumes/KINGSTON/MovieApi/Core/MovieApi.Domain/obj/Debug/net9.0/MovieApi.Domain.pdb
 /Volumes/KINGSTON/MovieApi/Core/MovieApi.Domain/obj/Debug/net9.0/ref/MovieApi.Domain.dll
+/Volumes/KINGSTON/Projeler/MovieApi/Core/MovieApi.Domain/bin/Debug/net9.0/MovieApi.Domain.deps.json
+/Volumes/KINGSTON/Projeler/MovieApi/Core/MovieApi.Domain/bin/Debug/net9.0/MovieApi.Domain.dll
+/Volumes/KINGSTON/Projeler/MovieApi/Core/MovieApi.Domain/bin/Debug/net9.0/MovieApi.Domain.pdb
+/Volumes/KINGSTON/Projeler/MovieApi/Core/MovieApi.Domain/obj/Debug/net9.0/MovieApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/KINGSTON/Projeler/MovieApi/Core/MovieApi.Domain/obj/Debug/net9.0/MovieApi.Domain.AssemblyInfoInputs.cache
+/Volumes/KINGSTON/Projeler/MovieApi/Core/MovieApi.Domain/obj/Debug/net9.0/MovieApi.Domain.AssemblyInfo.cs
+/Volumes/KINGSTON/Projeler/MovieApi/Core/MovieApi.Domain/obj/Debug/net9.0/MovieApi.Domain.csproj.CoreCompileInputs.cache
+/Volumes/KINGSTON/Projeler/MovieApi/Core/MovieApi.Domain/obj/Debug/net9.0/MovieApi.Domain.sourcelink.json
+/Volumes/KINGSTON/Projeler/MovieApi/Core/MovieApi.Domain/obj/Debug/net9.0/MovieApi.Domain.dll
+/Volumes/KINGSTON/Projeler/MovieApi/Core/MovieApi.Domain/obj/Debug/net9.0/refint/MovieApi.Domain.dll
+/Volumes/KINGSTON/Projeler/MovieApi/Core/MovieApi.Domain/obj/Debug/net9.0/MovieApi.Domain.pdb
+/Volumes/KINGSTON/Projeler/MovieApi/Core/MovieApi.Domain/obj/Debug/net9.0/ref/MovieApi.Domain.dll
