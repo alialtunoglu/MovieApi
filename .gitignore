@@ -1,87 +1,54 @@
-# Visual Studio / .NET Core specific ignores
+# Environment variables
+.env
+*/**/.env
+bin/
+obj/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
 [Bb]in/
 [Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio files
 .vs/
-.vscode/
-**/[Bb]in/
-**/[Oo]bj/
 *.user
 *.userosscache
-*.suo
+*.sln.docstates
 *.userprefs
-*.dbmdl
-*.dbproj.schemaview
-*.jfm
-*.pfx
-*.publishsettings
-*.cache
-*.csproj.user
-project.lock.json
-project.fragment.lock.json
-artifacts/
 
-# NuGet Packages
-*.nupkg
-# The packages folder can be ignored because of Package Restore
-**/[Pp]ackages/*
-# except build/, which is used as an MSBuild target
-!**/[Pp]ackages/build/
-# Uncomment if necessary however generally it will be regenerated when needed
-#!**/[Pp]ackages/repositories.config
-# NuGet v3's project.json files produces more ignorable files
-*.nuget.props
-*.nuget.targets
-
-# Visual Studio Files
-*_i.c
-*_p.c
-*_h.h
-*.ilk
-*.meta
-*.obj
-*.iobj
-*.pch
-*.pdb
-*.ipdb
-*.pgc
-*.pgd
-*.rsp
-*.sbr
-*.tlb
-*.tli
-*.tlh
-*.tmp
-*.tmp_proj
-*_wpftmp.csproj
-*.log
-*.vspscc
-*.vssscc
-.builds
-*.pidb
-*.svclog
-*.scc
-
-# Local configuration files
-appsettings.Development.json
-appsettings.local.json
-appsettings.Production.json
-*.local.json
-local.settings.json
+# Rider
+.idea/
 
 # User-specific files
 *.rsuser
-*.DotSettings.user
-
-# IDE specific files
-.idea/
-.vscode/
-*.sln.iml
+*.suo
+*.user
+*.userosscache
 *.sln.docstates
-*.DotSettings
 
-# OS specific files
+# macOS
 .DS_Store
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
+.AppleDouble
+.LSOverride
+
+# Temporary files
+*.swp
+*~
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json 
